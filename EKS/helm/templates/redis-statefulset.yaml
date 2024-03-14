@@ -53,7 +53,7 @@ spec:
       spec:
         accessModes: [ "ReadWriteOnce" ]
         {{ if not .Values.openshift }}
-        storageClassName: default
+        storageClassName: gp2
         volumeMode: Filesystem
         {{ end }}
         resources:
