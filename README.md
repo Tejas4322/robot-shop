@@ -21,7 +21,9 @@ The various services in the sample application already include all required Inst
 
 To see the application performance results in the Instana dashboard, you will first need an Instana account. Don't worry a [trial account](https://instana.com/trial?utm_source=github&utm_medium=robot_shop) is free.
 
-## To continue with the deployment process Checkout the EKS folder
+## To continue with the deployment process on AWS EKS
+
+##### Checkout the EKS folder
 
 ## Build from Source
 To optionally build from source (you will need a newish version of Docker to do this) use Docker Compose. Optionally edit the `.env` file to specify an alternative image registry and version tag; see the official [documentation](https://docs.docker.com/compose/env-file/) for more information.
